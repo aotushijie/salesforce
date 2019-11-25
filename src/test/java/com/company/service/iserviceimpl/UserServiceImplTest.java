@@ -15,8 +15,6 @@ import static org.junit.Assert.*;
 @ContextConfiguration("classpath:applicationcontext.xml")
 public class UserServiceImplTest {
 
-
-
     @Autowired
     UserService userservice;
     @Test
